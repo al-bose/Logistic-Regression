@@ -1,0 +1,10 @@
+Please make sure your system is running python version 3 and has pandas, numpy, and sci-kit learn libraries 
+
+How to run:
+In the folder containing the code please place test and training data as csv files called "logistic_regression-test.csv" and "logistic_regression_train.csv"
+Please create a folder named "Output"
+Run python logisticRegression.py arg1 arg2 where arg1 is either 0:batch gradient descent, 1:Newton Raphson method and arg 2 is either 0: non-normalized, 1:normalized input
+
+The output will be in the output folder
+
+Please note that the batch gradient descent method is regularized with a lambda value of 0.001 that can be manually changed
